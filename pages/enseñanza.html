@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
     <!-- link estilos propios -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- link google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
             <nav class="navbar fixed-top navbar-expand-lg shadow p-3">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="img/2logo.png" alt="logo" id="logo" width="75" height="75"> 
+                        <img src="../img/2logo.png" alt="logo" id="logo" width="75" height="75"> 
                         <h1> Cecilia Ceccoli <br> Servicios Lingüísticos</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +34,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav fs-4">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            <a class="nav-link" href="pages/traducciones.html">Traducciones</a>
-                            <a class="nav-link" href="pages/subtitulados.html">Subtitulados</a>
-                            <a class="nav-link" href="pages/enseñanza.html">Enseñanza</a>
-                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="../pages/traducciones.html">Traducciones</a>
+                            <a class="nav-link" href="../pages/subtitulados.html">Subtitulados</a>
+                            <a class="nav-link active" href="../pages/enseñanza.html">Enseñanza</a>
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -48,32 +48,38 @@
   
     <main class="shadow">
         <div class="intro">
-            <h2>Bienvenidos a mi sitio</h2>
+            <h2>Servicio de enseñanza de inglés y español</h2>
         </div>
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 overflow-hidden">
-                    <img class="multimedia" src="img/traduccion.png" alt="Ilustración1">
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <p>Soy una lingüista entusiasta con gran
-                        curiosidad por la interacción de culturas e
-                        idiomas. Me caracterizan un marcado
-                        perfeccionismo y accesibilidad a la hora de
-                        trabajar, tanto en forma independiente como
-                        en equipo.
-                    </p>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/slide1.png" class="d-block w-100" alt="slide1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/slide2.png" class="d-block w-100" alt="slide2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/slide3.png" class="d-block w-100" alt="slide3">
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <hr>
-            <div class="row g-4">
-                <div class="col-sm-12 col-md-6">
-                    <p>Los idiomas me permiten interiorizarme en un nuevo mundo lingüístico con cada trabajo y hallar la forma más adecuada de abrir esa puerta a otras culturas. Es un camino fascinante con gran crecimiento en cada nuevo desafío y para lo que me capacito regularmente.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 overflow-hidden">
-                    <img class="multimedia" src="img/ww.jpg" alt="Mujer Trabajando">
-                </div>
+            <div>
+                <p class="pintro" id="pensenanza"> La enseñanza del inglés como segunda lengua ha marcado mi rumbo profesional durante más de quince años. He trabajado en clases particulares y grupales, especializándome en adultos de todos los niveles de inglés. Los cursos se preparan a medida del alumno o alumna según sus gustos y necesidades.
+                </p>
             </div>
         </section>
     </main>
