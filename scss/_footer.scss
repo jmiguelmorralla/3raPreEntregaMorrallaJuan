@@ -1,0 +1,16 @@
+footer {
+    
+    background-image: "img/wave.svg";
+    grid-area: footer;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    p {
+        font-size: 1.6em;
+        font-style: normal;
+    }
+}

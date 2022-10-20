@@ -1,0 +1,15 @@
+body {
+    background-color: $color-secundario;
+    font-family: 'Josefin Slab', serif;
+    margin: 0rem;
+    width: 100%;
+    color: $color-terciario;
+
+
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}

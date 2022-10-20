@@ -1,0 +1,37 @@
+header {
+    grid-area: header;
+    background-color: $color-secundario;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin-right: 3rem !important;
+    color: $color-terciario;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    pointer-events:none
+}
+
+.navbar {
+    background-color: $color-primario;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.nav-link {
+    color: $color-terciario;
+}
+
+.collapse {
+    justify-content: flex-end
+}
+
+.active {
+    font-weight: bold;
+    color: $color-terciario;
+}
