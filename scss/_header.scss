@@ -4,12 +4,11 @@ header {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: $fuente*1.8;
     margin: 0;
 }
 
 .navbar-brand {
-    margin-right: 3rem !important;
     color: $color-terciario;
     display: flex;
     flex-direction: row;
@@ -19,8 +18,7 @@ h1 {
 
 .navbar {
     background-color: $color-primario;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+
 }
 
 .nav-link {

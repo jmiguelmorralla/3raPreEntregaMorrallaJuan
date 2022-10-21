@@ -16,7 +16,6 @@ h1 {
   margin: 0; }
 
 .navbar-brand {
-  margin-right: 3rem !important;
   color: white;
   display: flex;
   flex-direction: row;
@@ -24,9 +23,7 @@ h1 {
   pointer-events: none; }
 
 .navbar {
-  background-color: #cb7ec1;
-  padding-top: 5px !important;
-  padding-bottom: 5px !important; }
+  background-color: #cb7ec1; }
 
 .nav-link {
   color: white; }
@@ -40,14 +37,14 @@ h1 {
 
 main {
   margin-top: 110px;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
   grid-area: main; }
 
 h2 {
-  margin: 2rem;
+  margin: 0.5rem;
   padding: 0;
   text-align: center;
   position: relative; }
@@ -55,7 +52,7 @@ h2 {
 p {
   padding: 0;
   margin: 0;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-style: italic;
   font-weight: 200;
   text-align: justify;
@@ -82,11 +79,11 @@ footer {
   flex-direction: row;
   justify-content: space-between; }
   footer p {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-style: normal; }
 
 .icon {
-  margin: 0, 5rem;
+  margin: 1rem;
   height: 3rem;
   width: 3rem;
   transition-property: all;
@@ -98,8 +95,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   max-width: 1320px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   margin: auto; }
 
 div .pintro {
@@ -129,7 +126,7 @@ div .pintro {
   animation-name: giro-flecha;
   margin-top: 1rem;
   animation-duration: 2s;
-  animation-iteration-count: 2; }
+  animation-iteration-count: 1; }
 
 .form {
   max-width: 900px;
@@ -170,7 +167,7 @@ div .pintro {
   h1 {
     font-size: 1rem; }
   footer p {
-    font-size: 1em;
+    font-size: 1rem;
     flex-direction: column;
     align-items: center; }
   .icon {
@@ -188,4 +185,4 @@ div .pintro {
 
 @media screen and (max-width: 992px) {
   footer p {
-    font-size: 1.3em; } }
+    font-size: 1.3rem; } }

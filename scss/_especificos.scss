@@ -13,8 +13,8 @@
     flex-direction: column;
     justify-content: center;
     max-width: 1320px;
-    padding-top: $padding*6;
-    padding-bottom: 1.5rem;
+    padding-top: $padding*4;
+    padding-bottom: $padding*3;
     margin: auto;
 }
 
@@ -27,7 +27,7 @@ div {
 }
 
 #pensenanza {
-    padding-top: 2rem;
+    padding-top: $padding*2;
 }
 
 #flecha {
@@ -50,9 +50,9 @@ div {
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
     animation-name: giro-flecha;
-    margin-top: 1rem;
+    margin-top: $margin;
     animation-duration: 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
 }
 
 .form {
