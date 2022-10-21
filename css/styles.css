@@ -1,13 +1,11 @@
 body {
   background-color: #76736f;
   font-family: 'Josefin Slab', serif;
-  margin: 0rem;
+  margin: 0;
   width: 100%;
   color: white;
   display: grid;
-  grid-template-areas: "header"
- "main"
- "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 header {
   grid-area: header;
@@ -88,7 +86,7 @@ footer {
     font-style: normal; }
 
 .icon {
-  margin: 0.5rem;
+  margin: 0, 5rem;
   height: 3rem;
   width: 3rem;
   transition-property: all;
@@ -134,18 +132,31 @@ div .pintro {
   animation-iteration-count: 2; }
 
 .form {
-  max-width: 900px !important;
+  max-width: 900px;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto; }
 
+.boton {
+  background-color: #cb7ec1;
+  color: white;
+  border-radius: 2px;
+  border-color: white;
+  transition-property: all;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out; }
+
 .icon:hover {
   transform: rotateY(360deg); }
 
 #wa1:hover {
   transform: rotateY(360deg); }
+
+.boton:hover {
+  transform: translate(0, 2px); }
 
 @keyframes giro-flecha {
   0% {
