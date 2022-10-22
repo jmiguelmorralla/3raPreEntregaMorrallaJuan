@@ -20,8 +20,7 @@ footer {
 
 .icon {
     margin: $margin;
-    height: 3rem;
-    width: 3rem;
+    @include size-element(3rem, 3rem);
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;

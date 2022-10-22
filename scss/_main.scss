@@ -22,15 +22,15 @@ p {
     
 .pintro {
     @extend p;
+    @include font($fuente*1.8, normal, 400);
     margin: $margin;
-    @include fuente($fuente*1.8, normal, 400)
     text-align: center;
     max-width: 1320px;
 }
     
 .pdescription {
     @extend p;
-    @include fuente($fuente*1.5, italic, 200)
+    @include font($fuente*1.5, italic, 200);
     text-align:justify;
     justify-content: center;
     }
@@ -56,8 +56,7 @@ p {
 }
 
 .multimedia {
-    width: 100%; 
-    height: 100%;
+    @include size-element(100%, 100%);
 }
 
 a {

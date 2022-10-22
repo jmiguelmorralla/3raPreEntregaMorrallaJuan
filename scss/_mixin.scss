@@ -1,6 +1,10 @@
-@mixin fuente ($tamano, $estilo, $grosor) {
+@mixin font ($tamano, $estilo, $grosor) {
     font-size: $tamano;
     font-style: $estilo;
     font-weight: $grosor;
 }
 
+@mixin size-element ($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}

@@ -36,8 +36,8 @@ h1 {
   color: white; }
 
 #logo {
-  width: 75px;
-  height: 75px; }
+  height: 75px;
+  width: 75px; }
 
 main {
   padding-top: 110px;
@@ -59,10 +59,10 @@ p, .pintro, .pdescription, #pensenanza {
   margin: 0; }
 
 .pintro {
-  margin: 1rem;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
+  margin: 1rem;
   text-align: center;
   max-width: 1320px; }
 
@@ -90,8 +90,8 @@ p, .pintro, .pdescription, #pensenanza {
   align-items: center; }
 
 .multimedia {
-  width: 100%;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 a {
   color: white;
