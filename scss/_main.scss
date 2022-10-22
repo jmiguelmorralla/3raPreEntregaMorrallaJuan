@@ -46,13 +46,18 @@ p {
     flex-direction: column;
     justify-content: center;
     max-width: 1320px;
-    padding-top: $padding*4;
+    padding-top: $padding*2.5;
     padding-bottom: $padding*2;
     margin: auto;
 }
 
 .row {
     align-items: center;
+}
+
+.carousel {
+    max-width: 1320px;
+    margin: auto;
 }
 
 .multimedia {

@@ -82,12 +82,16 @@ p, .pintro, .pdescription, #pensenanza {
   flex-direction: column;
   justify-content: center;
   max-width: 1320px;
-  padding-top: 4rem;
+  padding-top: 2.5rem;
   padding-bottom: 2rem;
   margin: auto; }
 
 .row {
   align-items: center; }
+
+.carousel {
+  max-width: 1320px;
+  margin: auto; }
 
 .multimedia {
   height: 100%;
@@ -145,7 +149,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  align-items: center; }
   footer p, footer .pintro, footer .pdescription, footer #pensenanza {
     font-size: 1rem;
     font-style: normal;
@@ -186,7 +191,8 @@ footer {
     flex-direction: column;
     align-items: center; }
     footer p, footer .pintro, footer .pdescription, footer #pensenanza {
-      font-size: 0.4rem; }
+      font-size: 0.4rem;
+      text-align: center; }
   .icon {
     margin: 0.5rem;
     height: 1rem;
@@ -216,7 +222,8 @@ footer {
     flex-direction: column;
     align-items: center; }
     footer p, footer .pintro, footer .pdescription, footer #pensenanza {
-      font-size: 1rem; }
+      font-size: 1rem;
+      text-align: center; }
   .icon {
     margin: 0.5rem;
     height: 1.5rem;
