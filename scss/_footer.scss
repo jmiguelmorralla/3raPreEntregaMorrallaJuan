@@ -10,7 +10,16 @@ footer {
     justify-content: space-between;
     
     p {
-        font-size: $fuente*1.6;
+        font-size: $fuente*1.4;
         font-style: normal;
     }
+}
+
+.icon {
+    margin: $margin;
+    height: 3rem;
+    width: 3rem;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }

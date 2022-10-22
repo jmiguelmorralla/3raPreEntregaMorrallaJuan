@@ -8,20 +8,52 @@ main{
 }
 
 h2 {
-    margin: $margin/2;
-    padding: 0;
+    display: block;
+    padding-top: $padding;
+    padding-bottom: $padding;
     text-align: center;
     position: relative;
-    }
+    font-weight: 600;
+}
 
 p {
     padding: 0;
     margin: 0;
+}
+    
+.pintro {
+    @extend p;
+    margin: $margin;
     font-size: $fuente*1.8;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1320px;
+}
+    
+.pdescription {
+    @extend p;
+    font-size: $fuente*1.5;
     font-style: italic;
-    font-weight:200;
+    font-weight: 200;
     text-align:justify;
     justify-content: center;
+    }
+    
+#pensenanza {
+    @extend p;
+    padding-top: $padding*2;
+    margin: auto;
+}
+
+.divintro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1320px;
+    padding-top: $padding*4;
+    padding-bottom: $padding*2;
+    margin: auto;
 }
 
 .row {
@@ -36,4 +68,51 @@ p {
 a {
     color: $color-terciario;
     text-decoration: none;
+}
+
+#flecha {
+    animation-name: giro-flecha;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.col-sm-12 {
+    align-self: center;
+}
+
+.col-md-2 {
+    padding: 6%;
+}
+
+#wa1 {
+    margin: auto;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    animation-name: giro-flecha;
+    margin-top: $margin;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.form {
+    max-width: 900px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.boton {
+    background-color: $color-primario;
+    color: $color-terciario;
+    border-radius: 2px;
+    border-color: $color-terciario;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+
 }

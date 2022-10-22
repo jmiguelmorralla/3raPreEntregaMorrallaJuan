@@ -1,7 +1,7 @@
 {
   "name": "3rapreentregamorrallajuan",
   "version": "1.0.0",
-  "description": "",
+  "description": "3ra. Pre Entrega de alumno Juan Morralla - Corder House - Desarrollo Web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
