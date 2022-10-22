@@ -36,11 +36,10 @@ h1 {
   color: white; }
 
 main {
-  margin-top: 110px;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 110px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 5rem;
   grid-area: main; }
 
 h2 {
@@ -141,10 +140,12 @@ footer {
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-content: center; }
   footer p, footer .pintro, footer .pdescription, footer #pensenanza {
-    font-size: 1.4rem;
-    font-style: normal; }
+    font-size: 1rem;
+    font-style: normal;
+    display: block; }
 
 .icon {
   margin: 1rem;
@@ -168,6 +169,29 @@ footer {
     transform: rotate(360deg); }
   100% {
     transform: rotate(0deg); } }
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 0.5rem; }
+  h1 {
+    font-size: 0.8rem; }
+  footer {
+    flex-direction: column;
+    align-items: center; }
+    footer p, footer .pintro, footer .pdescription, footer #pensenanza {
+      font-size: 0.4rem; }
+  .icon {
+    margin: 0.5rem;
+    height: 1rem;
+    width: 1rem; }
+  .pintro {
+    margin: 0.5rem; }
+  #flecha {
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin: auto; } }
 
 @media screen and (max-width: 768px) {
   body {
@@ -193,4 +217,4 @@ footer {
 
 @media screen and (max-width: 992px) {
   footer p, footer .pintro, footer .pdescription, footer #pensenanza {
-    font-size: 1.3rem; } }
+    font-size: 0.8rem; } }

@@ -8,10 +8,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
+    
     
     p {
-        font-size: $fuente*1.4;
+        font-size: $fuente;
         font-style: normal;
+        display: block;
     }
 }
 
