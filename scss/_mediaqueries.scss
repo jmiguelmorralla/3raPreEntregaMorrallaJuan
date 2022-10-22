@@ -1,11 +1,16 @@
 
 @media screen and (max-width: 375px) {
-    body {
+    .pintro {
+        font-size: $fuente*0.5;
+        margin: $margin*0.5;
+    }
+
+    .pdescription {
         font-size: $fuente*0.5;
     }
     
     h1 {
-        font-size: $fuente*0.8;
+        font-size: $fuente*0.5;
     }
 
     footer {
@@ -22,10 +27,10 @@
         width: 1rem;
     }
 
-    .pintro {
-        margin: $margin*0.5;
+    #logo {
+        width: 35px; 
+        height: 35px;
     }
-
     #flecha {
         justify-items: center;
         align-content: center;
@@ -37,12 +42,23 @@
 
 
 @media screen and (max-width: 768px) {
-    body {
-        font-size: small;
+    .pintro {
+        font-size: $fuente*1.5;
+        margin: $margin;
     }
+
+    .pdescription {
+        font-size: $fuente*1.5;
+    }
+    
     
     h1 {
         font-size: $fuente;
+    }
+
+    #logo {
+        width: 55px; 
+        height: 55px;
     }
 
     footer {
@@ -59,10 +75,6 @@
         width: 1.5rem;
     }
 
-    .pintro {
-        margin: $margin;
-    }
-
     #flecha {
         justify-items: center;
         align-content: center;
@@ -74,7 +86,6 @@
 
 @media screen and (max-width: 992px) {
 
-    
     footer { 
         p {
         font-size: $fuente*0.8;
