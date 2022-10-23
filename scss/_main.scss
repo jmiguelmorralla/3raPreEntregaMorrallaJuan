@@ -89,8 +89,9 @@ a {
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
     animation-name: giro-flecha;
+    animation-delay: 2s;
     margin-top: $margin;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 }
 

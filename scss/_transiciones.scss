@@ -1,12 +1,25 @@
-
-.icon:hover {
+#linkedin:hover {
+    transform: translate(0, -2px);
+    color: #0073b1;
+    }
+#facebook:hover {
+    transform: translate(0, -2px);
+    color: #1877f2;
+}
+#instagram:hover {
+    transform: translate(0, -2px);
+    color: #D43089;
+}
+#whatsapp:hover {
+    transform: translate(0, -2px);
+    color: #43d854;
+}
+  
+#wa1:hover {
     transform: rotateY(360deg);
- }
+    color: #43d854;
+}
  
- #wa1:hover {
-     transform: rotateY(360deg);
- }
- 
- .boton:hover {
+.boton:hover {
     transform: translate(0, 2px);
- }
+}

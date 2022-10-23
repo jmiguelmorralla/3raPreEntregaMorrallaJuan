@@ -24,13 +24,11 @@
 
     .icon {
         margin: $margin/2;
-        height: 1rem;
-        width: 1rem;
+        @include size-element(1rem, 1rem);
     }
 
     #logo {
-        width: 35px; 
-        height: 35px;
+        @include size-element(35px, 35px);
     }
     #flecha {
         justify-items: center;
