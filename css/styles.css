@@ -55,8 +55,11 @@ h2 {
   font-weight: 600; }
 
 p, .pintro, .pdescription, #pensenanza {
-  padding: 0;
-  margin: 0; }
+  border: none;
+  text-decoration: none;
+  animation-name: ingreso;
+  animation-duration: 800ms;
+  animation-iteration-count: 1; }
 
 .pintro {
   font-size: 1.8rem;
@@ -91,11 +94,17 @@ p, .pintro, .pdescription, #pensenanza {
 
 .carousel {
   max-width: 1320px;
-  margin: auto; }
+  margin: auto;
+  animation-name: ingreso;
+  animation-duration: 1600ms;
+  animation-iteration-count: 1; }
 
 .multimedia {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  animation-name: ingreso;
+  animation-duration: 1600ms;
+  animation-iteration-count: 1; }
 
 a {
   color: white;
@@ -130,7 +139,10 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto; }
+  margin: auto;
+  animation-name: ingreso;
+  animation-duration: 1600ms;
+  animation-iteration-count: 1; }
 
 .boton {
   background-color: #cb7ec1;
@@ -140,6 +152,9 @@ a {
   transition-property: all;
   transition-duration: 100ms;
   transition-timing-function: ease-in-out; }
+
+hr {
+  display: none; }
 
 footer {
   background-image: "img/wave.svg";
@@ -157,27 +172,10 @@ footer {
     font-style: normal;
     display: block; }
 
-.icon, #linkedin, #instagram, #facebook, #whatsapp {
+.icon {
   margin: 1rem;
   height: 3rem;
-  width: 3rem; }
-
-#linkedin {
-  transition-property: all;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in-out; }
-
-#instagram {
-  transition-property: all;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in-out; }
-
-#facebook {
-  transition-property: all;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in-out; }
-
-#whatsapp {
+  width: 3rem;
   transition-property: all;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out; }
@@ -211,6 +209,12 @@ footer {
   100% {
     transform: rotate(0deg); } }
 
+@keyframes ingreso {
+  0% {
+    transform: translate(0, 20px); }
+  100% {
+    transform: translate(0, 0); } }
+
 @media screen and (max-width: 375px) {
   .pintro {
     font-size: 0.5rem;
@@ -219,13 +223,15 @@ footer {
     font-size: 0.5rem; }
   h1 {
     font-size: 0.5rem; }
+  hr {
+    display: inline; }
   footer {
     flex-direction: column;
     align-items: center; }
     footer p, footer .pintro, footer .pdescription, footer #pensenanza {
       font-size: 0.4rem;
       text-align: center; }
-  .icon, #linkedin, #instagram, #facebook, #whatsapp {
+  .icon {
     margin: 0.5rem;
     height: 1rem;
     width: 1rem; }
@@ -247,6 +253,8 @@ footer {
     font-size: 1.5rem; }
   h1 {
     font-size: 1rem; }
+  hr {
+    display: inline; }
   #logo {
     width: 55px;
     height: 55px; }
@@ -256,7 +264,7 @@ footer {
     footer p, footer .pintro, footer .pdescription, footer #pensenanza {
       font-size: 1rem;
       text-align: center; }
-  .icon, #linkedin, #instagram, #facebook, #whatsapp {
+  .icon {
     margin: 0.5rem;
     height: 1.5rem;
     width: 1.5rem; }
@@ -268,5 +276,7 @@ footer {
     margin: auto; } }
 
 @media screen and (max-width: 992px) {
+  hr {
+    display: inline; }
   footer p, footer .pintro, footer .pdescription, footer #pensenanza {
     font-size: 0.8rem; } }

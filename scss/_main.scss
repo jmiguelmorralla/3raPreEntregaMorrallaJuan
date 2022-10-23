@@ -16,8 +16,11 @@ h2 {
 }
 
 p {
-    padding: 0;
-    margin: 0;
+    border: none;
+    text-decoration: none;
+    animation-name: ingreso;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
 }
     
 .pintro {
@@ -58,10 +61,16 @@ p {
 .carousel {
     max-width: 1320px;
     margin: auto;
+    animation-name: ingreso;
+    animation-duration: 1600ms;
+    animation-iteration-count: 1;
 }
 
 .multimedia {
     @include size-element(100%, 100%);
+    animation-name: ingreso;
+    animation-duration: 1600ms;
+    animation-iteration-count: 1;
 }
 
 a {
@@ -73,6 +82,7 @@ a {
     animation-name: giro-flecha;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    
 }
 
 .col-sm-12 {
@@ -103,6 +113,9 @@ a {
     align-items: center;
     justify-content: center;
     margin: auto;
+    animation-name: ingreso;
+    animation-duration: 1600ms;
+    animation-iteration-count: 1;
     
 }
 
@@ -115,4 +128,8 @@ a {
     transition-duration: 100ms;
     transition-timing-function: ease-in-out;
 
+}
+
+hr {
+    display: none;
 }
