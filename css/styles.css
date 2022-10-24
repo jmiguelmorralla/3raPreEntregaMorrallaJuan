@@ -57,6 +57,7 @@ h2 {
 p, .pintro, .pdescription, #pensenanza {
   border: none;
   text-decoration: none;
+  max-width: 1320px;
   animation-name: ingreso;
   animation-duration: 800ms;
   animation-iteration-count: 1; }
@@ -65,9 +66,8 @@ p, .pintro, .pdescription, #pensenanza {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  margin: 1rem;
-  text-align: center;
-  max-width: 1320px; }
+  margin: auto;
+  text-align: center; }
 
 .pdescription {
   font-size: 1.5rem;
@@ -78,6 +78,7 @@ p, .pintro, .pdescription, #pensenanza {
 
 #pensenanza {
   padding-top: 2rem;
+  padding-bottom: 1rem;
   margin: auto; }
 
 .divintro {
