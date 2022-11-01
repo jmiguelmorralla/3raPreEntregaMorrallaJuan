@@ -3,6 +3,9 @@ main{
     padding-left: $padding/2;
     padding-right: $padding/2;
     padding-bottom: $padding*5;
+    animation-name: ingreso;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
     grid-area: main;
 }
 
@@ -19,9 +22,6 @@ p {
     border: none;
     text-decoration: none;
     max-width: 1320px;
-    animation-name: ingreso;
-    animation-duration: 800ms;
-    animation-iteration-count: 1;
 }
     
 .pintro {
@@ -63,16 +63,10 @@ p {
 .carousel {
     max-width: 1320px;
     margin: auto;
-    animation-name: ingreso;
-    animation-duration: 800ms;
-    animation-iteration-count: 1;
 }
 
 .multimedia {
     @include size-element(100%, 100%);
-    animation-name: ingreso;
-    animation-duration: 800ms;
-    animation-iteration-count: 1;
 }
 
 a {
@@ -118,10 +112,6 @@ a {
     align-items: center;
     justify-content: center;
     margin: auto;
-    animation-name: ingreso;
-    animation-duration: 800ms;
-    animation-iteration-count: 1;
-    
 }
 
 .boton {
@@ -132,7 +122,6 @@ a {
     transition-property: all;
     transition-duration: 100ms;
     transition-timing-function: ease-in-out;
-
 }
 
 hr {

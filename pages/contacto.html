@@ -36,7 +36,7 @@
             <nav class="navbar fixed-top navbar-expand-lg shadow p-3">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="../img/2logo.svg" alt="logo" id="logo"> 
+                        <a href="../index.html"><img src="../img/2logo.svg" alt="logo" id="logo"></a>
                         <h1> Cecilia Ceccoli <br> Contacto</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,10 +69,10 @@
                 </a>
             </div>
         </div>
-        <section class="form">
+        <form class="form">
             <div class="mb-3">
                 <label for="FormControlInputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form" placeholder="Ej. Juan Pérez">
+                <input type="text" class="form" placeholder="Ej. Juan Pérez" required>
             </div>
             <div class="mb-3">
                 <label for="FormControlInputTelefono" class="form-label">Teléfono</label>
@@ -80,14 +80,14 @@
             </div>
             <div class="mb-3">
                 <label for="FormControlInputE-mail" class="form-label">E-mail</label>
-                <input type="email" class="form" placeholder="name@example.com">
+                <input type="email" class="form" placeholder="name@example.com" required>
             </div>
             <div class="mb-3">
                 <label for="FormControlTextareaDetalle" class="form-label">Detalle su consulta</label>
-                <textarea class="form" rows="5"></textarea>
+                <textarea class="form" rows="5" required></textarea>
             </div>
             <button type="submit" class="boton">Enviar</button>
-        </section>
+        </form>
     </main>
 
     <footer>
