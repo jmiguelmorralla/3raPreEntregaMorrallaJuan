@@ -225,7 +225,7 @@ footer {
   hr {
     display: inline; }
   footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-top: 2rem; }
     footer .social {
@@ -258,7 +258,7 @@ footer {
     width: 55px;
     height: 55px; }
   footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-top: 2rem; }
     footer .social {
