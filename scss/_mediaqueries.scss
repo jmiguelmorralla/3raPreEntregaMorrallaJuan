@@ -22,7 +22,8 @@
         align-items: center;
         margin-top: $margin*2;
         .social {
-            margin-top: $margin;
+            margin-top: $margin/2;
+            margin-bottom: $margin/2;
             .icon {
             margin: $margin/2;
             @include size-element(2rem, 2rem);
@@ -71,9 +72,10 @@
     footer {
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: $margin*2;
+        margin-top: $margin;
         .social {
-            margin-top: $margin;
+            margin-top: $margin/2;
+            margin-bottom: $margin/2;
             .icon {
             margin: $margin/2;
             @include size-element(3rem, 3rem);
