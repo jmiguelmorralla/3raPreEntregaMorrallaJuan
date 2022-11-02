@@ -11,6 +11,10 @@ header {
   grid-area: header;
   background-color: #76736f; }
 
+#marca {
+  display: flex;
+  align-items: center; }
+
 h1 {
   font-size: 1.8rem;
   margin: 0; }
