@@ -1,6 +1,4 @@
 footer {
-    
-    background-image: "img/wave.svg";
     grid-area: footer;
     width: 100%;
     max-width: 1320px;
@@ -21,21 +19,13 @@ footer {
             @include size-element(3rem, 3rem);
             margin-right: $margin;
         }
-        p {
-            font-size: $fuente;
-            font-style: normal;
-            display: block;
-            align-self: center;
-            
-        }
     }
- 
-}
 
-.icon {
-    margin: $margin;
-    @include size-element(3rem, 3rem);
-    transition-property: all;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
+    .icon {
+        margin: $margin;
+        @include size-element(3rem, 3rem);
+        transition-property: all;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
 }
