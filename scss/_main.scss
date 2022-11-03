@@ -6,7 +6,7 @@ main{
     animation-name: ingreso;
     animation-duration: 800ms;
     animation-iteration-count: 1;
-    grid-area: main;
+
 }
 
 h2 {
@@ -60,9 +60,29 @@ p {
     align-items: center;
 }
 
-.carousel {
-    max-width: 1320px;
-    margin: auto;
+.grid1 {
+    margin-top: $margin;
+    display: grid;
+    grid-template-areas: 
+    "superior"
+    "centro"
+    "inferior"
+    ;
+}
+
+.superior {
+    grid-area: superior;
+}
+
+.centro {
+    grid-area: centro;
+    display: flex;
+    flex-direction: row;
+}
+
+.inferior {
+    grid-area: inferior;
+    justify-self: start;
 }
 
 .multimedia {

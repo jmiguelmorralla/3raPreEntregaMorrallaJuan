@@ -3,12 +3,9 @@ body {
   font-family: 'Josefin Slab', serif;
   margin: 0;
   width: 100%;
-  color: white;
-  display: grid;
-  grid-template-areas: "header" "main" "footer"; }
+  color: white; }
 
 header {
-  grid-area: header;
   background-color: #76736f; }
 
 #marca {
@@ -50,8 +47,7 @@ main {
   padding-bottom: 5rem;
   animation-name: ingreso;
   animation-duration: 800ms;
-  animation-iteration-count: 1;
-  grid-area: main; }
+  animation-iteration-count: 1; }
 
 h2 {
   display: block;
@@ -97,9 +93,22 @@ p, .pintro, .pdescription, #pensenanza {
 .row {
   align-items: center; }
 
-.carousel {
-  max-width: 1320px;
-  margin: auto; }
+.grid1 {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-areas: "superior" "centro" "inferior"; }
+
+.superior {
+  grid-area: superior; }
+
+.centro {
+  grid-area: centro;
+  display: flex;
+  flex-direction: row; }
+
+.inferior {
+  grid-area: inferior;
+  justify-self: start; }
 
 .multimedia {
   height: 100%;
@@ -160,7 +169,6 @@ h3 {
   text-align: center; }
 
 footer {
-  grid-area: footer;
   width: 100%;
   max-width: 1320px;
   margin: auto;
