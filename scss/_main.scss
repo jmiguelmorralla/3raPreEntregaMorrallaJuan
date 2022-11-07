@@ -63,26 +63,8 @@ p {
 .grid1 {
     margin-top: $margin;
     display: grid;
-    grid-template-areas: 
-    "superior"
-    "centro"
-    "inferior"
-    ;
-}
-
-.superior {
-    grid-area: superior;
-}
-
-.centro {
-    grid-area: centro;
-    display: flex;
-    flex-direction: row;
-}
-
-.inferior {
-    grid-area: inferior;
-    justify-self: start;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
 
 .multimedia {
