@@ -219,6 +219,8 @@ footer {
     transform: translate(0, 0); } }
 
 @media screen and (max-width: 375px) {
+  main {
+    padding-top: 60px; }
   .pintro {
     font-size: 0.5rem;
     margin: 0.5rem; }
@@ -253,6 +255,8 @@ footer {
     margin: auto; } }
 
 @media screen and (max-width: 768px) {
+  main {
+    padding-top: 60px; }
   .pintro {
     font-size: 1.5rem;
     margin: 1rem; }
