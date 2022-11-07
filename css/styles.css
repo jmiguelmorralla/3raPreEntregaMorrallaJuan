@@ -96,8 +96,12 @@ p, .pintro, .pdescription, #pensenanza {
 .grid1 {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem; }
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  justify-items: center; }
+  .grid1 img {
+    max-height: 500px;
+    max-width: 300px; }
 
 .multimedia {
   height: 100%;
@@ -220,6 +224,9 @@ footer {
     margin: 0.5rem; }
   .pdescription {
     font-size: 0.5rem; }
+  .grid1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; }
   h1 {
     font-size: 0.5rem; }
   hr {
@@ -251,6 +258,9 @@ footer {
     margin: 1rem; }
   .pdescription {
     font-size: 1.5rem; }
+  .grid1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; }
   h1 {
     font-size: 1rem; }
   hr {

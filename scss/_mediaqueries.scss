@@ -9,6 +9,11 @@
         font-size: $fuente*0.5;
     }
     
+    .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
     h1 {
         font-size: $fuente*0.5;
     }
@@ -55,7 +60,11 @@
         font-size: $fuente*1.5;
     }
     
-    
+    .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
     h1 {
         font-size: $fuente;
     }

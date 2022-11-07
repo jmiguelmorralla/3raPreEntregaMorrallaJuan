@@ -63,8 +63,13 @@ p {
 .grid1 {
     margin-top: $margin;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    justify-items: center;
+    img {
+        max-height: 500px;
+        max-width: 300px;
+    }
 }
 
 .multimedia {
